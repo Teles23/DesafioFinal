@@ -4,11 +4,12 @@ include "header.php"
 
 <head>
     <title>Cadastro</title>
+
 </head>
 
 <body>
     <main class="form-login">
-        <form class="needs-validation" novalidate>
+        <form class="needs-validation">
             <div class="row">
                 <div class="col">
                     <label for="exampleInputEmail">Nome</label>
@@ -34,7 +35,7 @@ include "header.php"
                 <label for="exampleInputPassword2">Confirme sua senha</label>
                 <input name="senha2" type="password" class="form-control" id="confirmpassword" placeholder="Confirme sua senha" required minlength="6">
             </div>
-            <button type="submit" class="btn frm-botao btn-primary">Enviar</button>
+            <button type="submit" class="btn frm-botao btn-primary" disabled>Enviar</button>
         </form>
     </main>
 
